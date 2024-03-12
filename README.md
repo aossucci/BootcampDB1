@@ -5,3 +5,4 @@
 - Contexto teórico
 - Instalação e configuração inicial
 - Primeiros comando...
+- Exercício para testar os comandos do git
