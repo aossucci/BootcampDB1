@@ -1,5 +1,6 @@
 let arrayNums = [2, 4, 3, 1, 6, 7, 9];
 let arrayPar = [];
+let arrayImp = [];
 
 for (let i = 0; i < arrayNums.length; i++) {
     let num = arrayNums[i];
@@ -8,4 +9,12 @@ for (let i = 0; i < arrayNums.length; i++) {
     }
 }
 
-console.log(arrayPar); // Isso irá imprimir [2, 4, 6]
+for (let i = 0; i < arrayNums.length; i++) {
+    let num = arrayNums[i];
+    if (num % 2 !== 0) {
+        arrayImp.push(num);
+    }
+}
+
+console.log(arrayPar); 
+console.log(arrayImp); 
